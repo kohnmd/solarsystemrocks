@@ -1,0 +1,10 @@
+
+body {
+    margin: 0;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #FFF8E7;
+    background: linear-gradient(#150F25 33%, #000); /* palette: https://coolors.co/150f25-2f224a-5e5385-a293ad-fff8e7 */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
