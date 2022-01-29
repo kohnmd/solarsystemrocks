@@ -8,3 +8,7 @@ body {
     background-attachment: fixed;
 }
 
+img.big-ol-planet-pic {
+    max-width: 75vh;
+    max-height: 75vw;
+}

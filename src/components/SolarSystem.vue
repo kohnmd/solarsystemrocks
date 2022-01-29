@@ -18,9 +18,9 @@ export default {
     data() {
         return {
             planets: [
-                {id: 1, name: "Mercury", about: "Smallest of them all!", img: "[mercury image]"},
-                {id: 2, name: "Venus", about: "Sooooo hot", img: "[v image]"},
-                {id: 3, name: "Earth", about: "You Are Here", img: "[blue marble]"},
+                {id: 1, name: "Mercury", about: "Smallest of them all!", img: require('../assets/images-raw/mercury.jpg')},
+                {id: 2, name: "Venus", about: "Sooooo hot", img: require('../assets/images-raw/venus.jpg')},
+                {id: 3, name: "Earth", about: "You Are Here", img: require('../assets/images-raw/earth.jpg')},
             ]
         }
     }
