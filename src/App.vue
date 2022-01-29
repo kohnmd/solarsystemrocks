@@ -1,5 +1,10 @@
 <template>
-    <SolarSystem />
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
+  </div>
+  <router-view/>
+  <SolarSystem />
 </template>
 
 <script>
@@ -15,9 +20,4 @@ export default {
 
 <style>
 @import './assets/styles/style.css';
-
-#app {
-    text-align: center;
-    margin-top: 60px;
-}
 </style>
