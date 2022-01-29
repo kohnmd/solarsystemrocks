@@ -1,23 +1,13 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
-  <SolarSystem />
+    <div id="nav">
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> | 
+        <router-link to="/random">Random</router-link>
+    </div>
+    <h1>Solar System Rocks</h1>
+    <router-view />
 </template>
 
-<script>
-import SolarSystem from "./components/SolarSystem.vue";
-
-export default {
-    name: "App",
-    components: {
-        SolarSystem
-    },
-};
-</script>
-
 <style>
-@import './assets/styles/style.css';
+@import "./assets/styles/style.css";
 </style>

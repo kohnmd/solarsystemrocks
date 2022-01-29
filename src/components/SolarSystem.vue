@@ -1,5 +1,4 @@
 <template>
-    hello sol
     <Planet
         v-for="planet in planets"
         v-bind:planet="planet"
